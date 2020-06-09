@@ -1,6 +1,5 @@
 <?php
 
-echo "Olá";
+echo "Olá, mundo!";
 
 ?>
-<p><a href="outra.php">Outra</a></p>
