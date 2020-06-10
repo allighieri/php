@@ -1,8 +1,6 @@
 <?php
+require_once('config.php');
 
-echo "Olá, mundo! Eu novamente";
-echo 'Kakakakakkkkk';
-
-echo  'Vai mais uma alteração';
+$_SESSION['nome'] = 'Monteiro';
 
 ?>
