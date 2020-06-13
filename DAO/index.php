@@ -27,13 +27,20 @@
     //echo $aluno;
 
     //Updade registros
+    //$usuario = new Usuario();
+    //$usuario->loadById(13);
+    //$usuario->update("Sullivan", "agencia5859262");
+
+    //Deletar
     $usuario = new Usuario();
 
     $usuario->loadById(13);
 
-    $usuario->update("Sullivan", "agencia5859262");
+    $usuario->delete();
 
-    
+    echo $usuario;
+
+
 
 
 /*    $sql = new Sql();
