@@ -1,0 +1,15 @@
+{
+    "name": "cursophp/composer",
+    "description": "Aula de PHP 7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Weder Monteiro",
+            "email": "agenciaolhardigital@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
